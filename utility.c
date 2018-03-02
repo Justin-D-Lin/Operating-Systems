@@ -15,3 +15,42 @@
 
 // Define your utility functions here, these will most likely be functions that you call
 // in your myshell.c source file
+void change_directory()
+{
+
+}
+
+void clear_screen()
+{
+
+}
+
+void list_directory_contents()
+{
+
+}
+
+void list_environment_strings()
+{
+
+}
+
+void echo() 
+{
+
+}
+
+void help()
+{
+
+}
+
+void pause_operation()
+{
+
+}
+
+void quit()
+{
+
+}
