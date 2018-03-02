@@ -20,4 +20,6 @@ typedef struct line_t
     char arg[][BUFFER_LEN];
 } Line;
 
+extern Line tokenization(char* input, char* delim);
+
 #endif /* MYSHELL_H_ */
