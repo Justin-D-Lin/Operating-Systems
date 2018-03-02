@@ -11,5 +11,13 @@
 // Include your relevant functions declarations here they must start with the 
 // extern keyword such as in the following example:
 // extern void display_help(void);
+#define BUFFER_LEN 256
+#define DELIM " "
+
+typedef struct line_t
+{
+    char command[BUFFER_LEN];
+    char arg[][BUFFER_LEN];
+} Line;
 
 #endif /* MYSHELL_H_ */
